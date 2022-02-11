@@ -98,6 +98,6 @@ if __name__ == "__main__":
     app.listen(8888)#Exposing Port to Public
     print('''Server Started listening at port 8888 ''')
     print('''1.) If you want to call API,Call api from browser[GET Request] with n beign user input,ex: http://127.0.0.1:8888/gettariff?n={"zip_code":10555,"city":"Nellischeid","street":"Torstraße","house_number":26,"yearly_kwh_consumption":1000}''')
-    print('''2.) If you want to run test cases , open new prompt and run python3 -m pytest pytest_for_api.py -v''')
+    print('''2.) If you want to run test cases , open new prompt and run python3 -m pytest pytest_for_api.py -v or python -m pytest pytest_for_api.py -v''')
     tornado.ioloop.IOLoop.current().start()
 
