@@ -1,8 +1,13 @@
 #API to calculate tariff based on data from file :  File is given via email
+
 #Input :  Json String
+
 #Method:  Calculate tariff based on input that is given by user and display output json string
+
 #Language Used:Python
+
 #Technologies Used: 1.) Pandas to parse data  2.) Tornado WebFramework to Expose data to public via API 3.)pytest to automate test cases
+
 #Output:  Json String
 
 #Time Taken for Development : 3.5-4 hours. Development took around 2-2.5 hours,Test Cases and Documentation took rest
