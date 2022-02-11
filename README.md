@@ -45,11 +45,14 @@ I have deployed this code in aws and tested the working in Cloud Instances.Refer
 Possible Improvements
 ----------------
 1.We could use AWS fargate for deployment so that it scales up and scales down with user traffic
-2.We could use AWS Lambda for deployment.We could have tmp folder of aws with size of 512MB taking data from s3 if new aws instance are created or used Container based deployments in lambda if file size becomes an issue
+
+2.We could use AWS Lambda for deployment.We could have tmp folder of aws lambda (with size of 512MB) taking data from s3 whenever new aws lambda instance are created or used Container based deployments in lambda if file size becomes an issue
+
 3.We could use AWS Lambda accessing AWS RDBMS(after loading csv content to db).In that case size is not a concern
 
 
 Alternative Methods
 --------------------
 1.)Instead of Pandas,we could have used AWS RDBMS by loading data from csv intially.
+
 2.)We could use VAEX library of Python to process large data instead of pandas if we consider memory as limitation.It can process heavy datasets very easily in low Memory systems
