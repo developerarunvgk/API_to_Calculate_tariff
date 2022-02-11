@@ -16,7 +16,7 @@ How to run the API & Automated TestCases
 ----------------------------------------
 1.Download the git by using command git clone https://github.com/developerarunvgk/API_Calculate_tariff.git
 
-2.Ensure that python3 and pip3 are installed
+2.Ensure that python3 or python and pip3 or python are installed
 
 3.Go to the extracted folder in the Directory and install the requirements using command pip3 install  -r requirements.txt or use pip install  -r requirements.txt
 
