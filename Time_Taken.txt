@@ -1,0 +1,10 @@
+Time Taken
+-----------------
+Development:2.5 Hours
+Testing & Documentation & Corrections:1 Hours
+
+
+Out of Scope of Question:
+-------------------------
+Deployment in AWS and exploring Alternate Options:1 Hour
+
